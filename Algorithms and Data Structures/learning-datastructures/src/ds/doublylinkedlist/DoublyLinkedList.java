@@ -36,7 +36,7 @@ public class DoublyLinkedList {
 			first = newNode;
 		}else{
 			last.next = newNode; // assigning old last to new node
-			newNode.previous = last; // the old last will be the newnodes previous
+			newNode.previous = last; // the old last will be the newnode's previous
 		}
 		
 		last = newNode; // the linkedlist's last field should point to the new node
