@@ -36,9 +36,9 @@ public class App {
 			if (a[q] == x){ // if the mid-point matches the number we are searching, then return q
 				return q;
 			} else if(a[q] > x){ // if the number we are searching for is more than the mid point
-				return recursiveBinarySerach(a, p, q-1, x); // mid point minus 1 becomes the new end
+				return recursiveBinarySerach(a, p, q-1, x);
 			} else{ // if the number we are searching for is less than the mid-point
-				return recursiveBinarySerach(a, p + 1, r, x); // mid point plus 1 becomes the new beginning
+				return recursiveBinarySerach(a, p + 1, r, x);
 			}
 		}
 	}
